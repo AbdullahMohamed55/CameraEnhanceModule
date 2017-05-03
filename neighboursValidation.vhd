@@ -5,7 +5,6 @@ USE IEEE.std_logic_1164.all;
 ENTITY addr_Valid IS
 	PORT(	addr: IN std_logic_vector(7 DOWNTO 0);
 			cnt: IN std_logic_vector(3 DOWNTO 0);
-			err: out std_logic;
 			out_fsm : out std_logic_vector(7 DOWNTO 0));
 END addr_Valid;
 
@@ -53,24 +52,29 @@ else "00000001" when cnt = "0101"; --addr + 16 L(-1)
 
 --pass address
 out_fsm <= addr when cnt = "0000"
-else x1 when cnt = "0001" --addr + 1 R(+1)
-else x2 when cnt = "0010" --addr - 16 TR(-15)
-else x2 when cnt = "0011" --addr - 1 T(-16)
-else x2 when cnt = "0100" --addr - 1 TL(-17)
-else x2 when cnt = "0101" --addr + 16 L(-1)
-else x1 when cnt = "0110" --addr + 16 DL(+15)
-else x1 when cnt = "0111" --addr + 1 D(+16)
-else x1 when cnt = "1000"; --addr + 1 DR(+17)
 
-err <= '0'when cnt = "0000"
-else car1 when cnt = "0001" --addr + 1 R(+1)
-else (not car2) when cnt = "0010" --addr - 16 TR(-15)
-else (not car2) when cnt = "0011" --addr - 1 T(-16)
-else (not car2) when cnt = "0100" --addr - 1 TL(-17)
-else (not car2) when cnt = "0101" --addr + 16 L(-1)
-else car1 when cnt = "0110" --addr + 16 DL(+15)
-else car1 when cnt = "0111" --addr + 1 D(+16)
-else car1 when cnt = "1000"; --addr + 1 DR(+17)
+else x1 when (cnt = "0001" and car1 = '0') --addr + 1 R(+1)
+else addr when (cnt = "0001" and car1 = '1') --ERROR CHECKING
 
+else x2 when (cnt = "0010" and car2 = '1') --addr - 16 TR(-15)
+else addr when (cnt = "0010" and car2 = '0') 
+
+else x2 when (cnt = "0011" and car2 = '1') --addr - 1 T(-16)
+else addr when (cnt = "0011" and car2 = '0') 
+
+else x2 when (cnt = "0100" and car2 = '1') --addr - 1 TL(-17)
+else addr when (cnt = "0100" and car2 = '0') 
+
+else x2 when (cnt = "0101" and car2 = '1') --addr + 16 L(-1)
+else addr when (cnt = "0101" and car2 = '0') 
+
+else x1 when (cnt = "0110" and car1 = '0') --addr + 16 DL(+15)
+else addr when (cnt = "0110" and car1 = '1') 
+
+else x1 when (cnt = "0111" and car1 = '0') --addr + 1 D(+16)
+else addr when (cnt = "0111" and car1 = '1') 
+
+else x1 when (cnt = "1000" and car1 = '0') --addr + 1 DR(+17)
+else addr when (cnt = "1000" and car1 = '1'); 
 
 END a_addr_Valid;
