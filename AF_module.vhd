@@ -25,8 +25,7 @@ component my_8subtractor IS
        GENERIC (n : integer := 8);
 PORT(a,b : IN std_logic_vector(n-1  DOWNTO 0);
             cin : IN std_logic;
-            s : OUT std_logic_vector(n-1 DOWNTO 0);
-            cout : OUT std_logic);
+            s : OUT std_logic_vector(n-1 DOWNTO 0));
 END component;
 
 
@@ -36,8 +35,15 @@ component my_12adder IS
 PORT(
     a,b : IN std_logic_vector(n-1  DOWNTO 0);
     cin : IN std_logic;
-    s : OUT std_logic_vector(n-1 DOWNTO 0);
-    cout : OUT std_logic);
+    s : OUT std_logic_vector(n-1 DOWNTO 0));
+END component;
+
+
+component my_19adder IS
+       GENERIC (n : integer := 19);
+PORT(a,b : IN std_logic_vector(n-1  DOWNTO 0);
+            cin : IN std_logic;
+            s : OUT std_logic_vector(n-1 DOWNTO 0));
 END component;
 
 
@@ -70,7 +76,6 @@ port(
     clr : in STD_LOGIC;
     clk : in STD_LOGIC;
     result : in STD_LOGIC_VECTOR(N-1 downto 0);
-    q : out STD_LOGIC_VECTOR(N-1 downto 0);
     dir : out STD_LOGIC; -- when '0' => lastmove = '01' and when '1' lastmove = '10'
     done : out STD_LOGIC
 );
@@ -79,13 +84,20 @@ end component;
 component add_Valid IS
     PORT(   addr: IN std_logic_vector(7 DOWNTO 0);
             cnt: IN std_logic_vector(3 DOWNTO 0);
-            err: out std_logic;
             out_fsm : out std_logic_vector(7 DOWNTO 0));
 END component;
 
 
 component n_reg is
-    Generic(n: integer := 16);
+    Generic(n: integer := 8);
+    port( d : in std_logic_vector(n-1 downto 0);
+          q: out std_logic_vector(n-1 downto 0);
+          rst,clk: in std_logic;
+        enable: in std_logic);
+End component;
+
+component reg_19 is
+    Generic(n: integer := 19);
     port( d : in std_logic_vector(n-1 downto 0);
           q: out std_logic_vector(n-1 downto 0);
           rst,clk: in std_logic;
@@ -93,18 +105,30 @@ component n_reg is
 End component;
 
 
+
+
 signal sub8_res : STD_LOGIC_VECTOR(7 downto 0);
 signal add12_res : STD_LOGIC_VECTOR(11 downto 0);
 signal count_9 : STD_LOGIC_VECTOR (3 downto 0);
 signal count_256 : STD_LOGIC_VECTOR (7 downto 0);
 signal main_px_data : STD_LOGIC_VECTOR (7 downto 0);
-signal main_px_data : STD_LOGIC_VECTOR (7 downto 0);
 signal out_Addr : STD_LOGIC_VECTOR (7 downto 0);
-signal err : STD_LOGIC;
+signal done_algo : STD_LOGIC;
+signal dir_algo : STD_LOGIC;
+signal result : STD_LOGIC_VECTOR(18 downto 0);
+signal add19_res :STD_LOGIC_VECTOR (18)
 
-
-port map my_8subtractor ()
 
 begin
+
+
+port map my_8subtractor (dataIn,main_px_data,'1',sub8_res);
+port map my_19adder (sub8_res,result,'0',add19_res);
+port map add_Valid ();
+port map my_19adder (sub8_res,result,'0',add19_res);
+
+port map reg_19 (result);
+
+
 
 end AF;

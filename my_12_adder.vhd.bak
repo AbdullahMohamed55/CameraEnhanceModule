@@ -20,4 +20,5 @@ BEGIN
   loop1: FOR i IN 1 TO n-1 GENERATE
           fx: my_adder PORT MAP  (a(i),b(i),temp(i-1),s(i),temp(i));
     END GENERATE;
+    cout <= temp(n-1);
 END a_my_12adder;

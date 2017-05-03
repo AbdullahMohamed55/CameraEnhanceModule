@@ -10,7 +10,6 @@ port(
     clr : in STD_LOGIC;
     clk : in STD_LOGIC;
     result : in STD_LOGIC_VECTOR(N-1 downto 0);
-    q : out STD_LOGIC_VECTOR(N-1 downto 0);
     dir : out STD_LOGIC; -- when '0' => lastmove = '01' and when '1' lastmove = '10'
     done : out STD_LOGIC
 );

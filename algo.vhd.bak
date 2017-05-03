@@ -29,7 +29,7 @@ begin
         lastmove <= (others => '0');
         dir <= '0';
         count <= '0';
-	done <= '0';
+        done <= '0';
     end if;
     if en ='1' then
         if lastmove ="00" and count = '0' then
