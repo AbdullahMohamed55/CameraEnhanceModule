@@ -2,14 +2,14 @@ LIBRARY IEEE;
 USE IEEE.std_logic_1164.all;
 
 --we wanna the output to be my next input
-ENTITY add_Valid IS
+ENTITY addr_Valid IS
 	PORT(	addr: IN std_logic_vector(7 DOWNTO 0);
 			cnt: IN std_logic_vector(3 DOWNTO 0);
 			err: out std_logic;
 			out_fsm : out std_logic_vector(7 DOWNTO 0));
-END add_Valid;
+END addr_Valid;
 
-Architecture a_add_Valid of add_Valid is
+Architecture a_addr_Valid of addr_Valid is
 
 COMPONENT my_8subtractor_noAbs IS
        GENERIC (n : integer := 8);
@@ -36,80 +36,41 @@ add:	my_nadder  port map (addr, addoperand,'0',x1,car1); -- a+b
 
 sub:	my_8subtractor_noAbs  port map (addr, subbOperand,'1',x2,car2); -- a-b
 
---process (clk,ir)
---Begin
---	if res = '1' or en = '0' then
---		state <= s_f1;
---	elsif rising_edge(clk) and en = '1' then
---		case state is
---		WHEN s_f1 =>
---			state <= s_f2;
---		WHEN s_f2 =>
---			state <= s_dec;
---		WHEN s_dec =>
---			state <= s_dec_wait;
---		WHEN s_dec_wait =>
---			state <= s_dec_wait;
---		end case;
---	end if;
---end process;
-
-process(cnt)
 --case adding error = carry, case subtracting error= !carry
-begin
-	if cnt = "0000" then
-		out_fsm <= addr;
-		err <= '0';
 
-	elsif cnt = "0001" then --
-		--addr + 1 R
-		addoperand <= "00000001";
-		out_fsm <= x1;
-		err <= car1;
+--addOperand
+addoperand <= "00000001" when cnt = "0001" --addr + 1 R(+1)
+else "00001111" when cnt = "0110" --addr + 16 DL(+15)
+else "00010000" when cnt = "0111" --addr + 1 D(+16)
+else "00010001" when cnt = "1000"; --addr + 1 DR(+17)
 
-	elsif cnt = "0010" then
-		--addr - 16 TR
-		subbOperand <= "00010000";
-		out_fsm <= x2;
-		err <= (not car2);
-
-	elsif cnt = "0011" then
-		--addr - 1 R
-		subbOperand <= "00000001";
-		out_fsm <= x2;
-		err <= (not car2);
-
-	elsif cnt = "0100" then
-		--addr - 1 TL
-		subbOperand <= "00000001";
-		out_fsm <= x2;
-		err <= (not car2);
-
-	elsif cnt = "0101" then
-		--addr + 16 L
-		addOperand <= "00010000";
-		out_fsm <= x1;
-		err <= car1;
-
-	elsif cnt = "0110" then
-		--addr + 16 DL
-		addOperand <= "00010000";
-		out_fsm <= x1;
-		err <= car1;
-
-	elsif cnt = "0111" then
-		--addr + 1 D
-		addOperand <= "00000001";
-		out_fsm <= x1;
-		err <= car1;
-
-	elsif cnt = "1000" then
-		--addr + 1 DR
-		addOperand <= "00000001";
-		out_fsm <= x1;
-		err <= car1;
-	end if;
+--subbOperand
+subbOperand <= "00001111" when cnt = "0010" --addr - 16 TR(-15)
+else "00010000" when cnt = "0011" --addr - 1 T(-16)
+else "00010001" when cnt = "0100" --addr - 1 TL(-17)
+else "00000001" when cnt = "0101"; --addr + 16 L(-1)
 
 
-end process;
-END a_add_Valid;
+--pass address
+out_fsm <= addr when cnt = "0000"
+else x1 when cnt = "0001" --addr + 1 R(+1)
+else x2 when cnt = "0010" --addr - 16 TR(-15)
+else x2 when cnt = "0011" --addr - 1 T(-16)
+else x2 when cnt = "0100" --addr - 1 TL(-17)
+else x2 when cnt = "0101" --addr + 16 L(-1)
+else x1 when cnt = "0110" --addr + 16 DL(+15)
+else x1 when cnt = "0111" --addr + 1 D(+16)
+else x1 when cnt = "1000"; --addr + 1 DR(+17)
+
+err <= '0'when cnt = "0000"
+else car1 when cnt = "0001" --addr + 1 R(+1)
+else (not car2) when cnt = "0010" --addr - 16 TR(-15)
+else (not car2) when cnt = "0011" --addr - 1 T(-16)
+else (not car2) when cnt = "0100" --addr - 1 TL(-17)
+else (not car2) when cnt = "0101" --addr + 16 L(-1)
+else car1 when cnt = "0110" --addr + 16 DL(+15)
+else car1 when cnt = "0111" --addr + 1 D(+16)
+else car1 when cnt = "1000"; --addr + 1 DR(+17)
+
+
+END a_addr_Valid;
