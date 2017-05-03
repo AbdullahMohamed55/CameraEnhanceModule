@@ -133,7 +133,7 @@ my8 : my_8subtractor port map  (dataIn,main_px_data,'1',sub8_res);
 my19 : my_19adder port map  (addera,result,'0',add19_res);
 my256 : counter256 port map  (c256enabler, rst, clk, count_256);
 my9 :counter port map  ( activate, rst, clk, count_9 );
-
+my20 :my_19adder port map  (sub8_res,result,'0',add19_res);
 myreg :n_reg port map  (dataIn, main_px_data, rst, clk, c256enabler);
 my1919: reg_19 port map  (add19_res, result, regreset, clk, '1' );
 myvalid: add_Valid port map (count_256(7 downto 0), count_9, addr);

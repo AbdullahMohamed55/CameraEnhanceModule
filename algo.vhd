@@ -11,7 +11,8 @@ port(
     clk : in STD_LOGIC;
     result : in STD_LOGIC_VECTOR(N-1 downto 0);
     dir : out STD_LOGIC; -- when '0' => lastmove = '01' and when '1' lastmove = '10'
-    done : out STD_LOGIC
+    done : out STD_LOGIC;
+    move : out STD_LOGIC
 );
 end Algo;
 
@@ -29,8 +30,8 @@ begin
         dir <= '0';
         count <= '0';
         done <= '0';
-    end if;
-    if en ='1' then
+	move <= '0';
+    elsif en ='1' then
         if lastmove ="00" and count = '0' then
             lastmove <="01";
 
@@ -50,6 +51,9 @@ begin
 
         end if;
         lastResult <= result;
+        move <= '1';
+    else
+        move <= '0';
     end if ;
 end process;
 end Algo;

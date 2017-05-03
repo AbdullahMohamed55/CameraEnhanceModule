@@ -9,7 +9,7 @@ use IEEE.STD_LOGIC_unsigned.all;
 ----------------------------------------
 
 entity counter256 is
-generic(N : integer := 4);
+generic(N : integer := 9);
 port(
     en: in STD_LOGIC;
     clr : in STD_LOGIC;
@@ -19,7 +19,6 @@ port(
 end counter256;
 
 ----------------------------------------
-
 architecture counter256 of counter256 is
 signal count: STD_LOGIC_VECTOR(N-1 downto 0);
 begin
@@ -27,13 +26,18 @@ begin
     begin
     if clr = '1'then
             count <= (others => '0');
+
     elsif en = '1' then
-        if rising_edge(clk) then
+
+        if count (8 downto 0) ="100000000" and rising_edge(clk)then
+            count <= (others => '0');
+        elsif rising_edge(clk) then
             count <= count + 1;
         end if;
     end if;
     end process;
 q <= count;
 end counter256;
+
 
 ----------------------------------------
