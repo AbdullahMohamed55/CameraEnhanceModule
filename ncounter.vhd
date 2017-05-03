@@ -25,10 +25,12 @@ signal count: STD_LOGIC_VECTOR(N-1 downto 0);
 begin
     process(clk, clr)
     begin
-	if en = '1' then
-        if clr = '1'then
+	if clr = '1'then
             count <= (others => '0');
-        elsif count (3 downto 0) ="1000" and rising_edge(clk)then
+	
+	elsif en = '1' then
+        
+        if count (3 downto 0) ="1000" and rising_edge(clk)then
             count <= (others => '0');
         elsif rising_edge(clk) then
             count <= count + 1;
