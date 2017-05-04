@@ -46,7 +46,7 @@ begin
 
         elsif unsigned (result) > unsigned (lastResult) and lastmove ="10"  then
             dir <='1';
-        else
+        elsif  unsigned (result) < unsigned (lastResult) and lastmove ="10"  then
             done <='1';
 
         end if;

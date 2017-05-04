@@ -82,7 +82,7 @@ port(
 );
 end component;
 
-component add_Valid IS
+component addr_Valid IS
     PORT(   addr: IN std_logic_vector(7 DOWNTO 0);
             cnt: IN std_logic_vector(3 DOWNTO 0);
             out_fsm : out std_logic_vector(7 DOWNTO 0));
@@ -123,27 +123,30 @@ signal move_algo : std_logic;
 signal activate : std_logic;
 signal regreset : std_logic;
 
+signal minicounteren : std_logic;
 signal addera : std_logic_vector(18 downto 0);
 begin
+minicounteren <= '1' when (activate = '1' and move_algo = '0')
+else '0';
 
 addera <= "00000000000" & sub8_res;
-c256enabler <= not(count_9(0) or count_9(1) or count_9(2) or count_9(3));
-regreset <= count_256(8);
+c256enabler <= count_9(3) = '1' and activate = '1';
+regreset <= count_256(8) or rst;
 my8 : my_8subtractor port map  (dataIn,main_px_data,'1',sub8_res);
 my19 : my_19adder port map  (addera,result,'0',add19_res);
 my256 : counter256 port map  (c256enabler, rst, clk, count_256);
-my9 :counter port map  ( activate, rst, clk, count_9 );
-my20 :my_19adder port map  (sub8_res,result,'0',add19_res);
+my9 :counter port map  ( minicounteren, rst, clk, count_9 );
+
 myreg :n_reg port map  (dataIn, main_px_data, rst, clk, c256enabler);
 my1919: reg_19 port map  (add19_res, result, regreset, clk, '1' );
-myvalid: add_Valid port map (count_256(7 downto 0), count_9, addr);
-myalgo: Algo port map  (regreset, rst, clk, result, dir_algo, done_algo, move_algo);
+myvalid: addr_Valid port map (count_256(7 downto 0), count_9, out_Addr);
+myalgo: Algo port map  (count_256(8), rst, clk, result, dir_algo, done_algo, move_algo);
 
-process(readDone, done_algo)
+process(readDone, move_algo)
 begin
 if(readDone = '1') then
  activate <= '1';
- elsif move_algo = '1' then
+ elsif move_algo = '1' or rst = '1' then
  activate <= '0';
  end if;
  end process;
@@ -153,5 +156,5 @@ if(readDone = '1') then
 direction <= dir_algo;
 Done <= done_algo;
 Move <= move_algo;
-
+addr <= out_Addr;
 end AF;

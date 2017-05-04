@@ -1,6 +1,6 @@
-vsim work.bmwn
-# vsim work.bmwn
-# Start time: 23:01:11 on May 03,2017
+vsim work.bmwn(a_bmwn)
+# vsim work.bmwn(a_bmwn)
+# Start time: 15:36:52 on May 04,2017
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -36,11 +36,37 @@ sim:/bmwn/direction \
 sim:/bmwn/move \
 sim:/bmwn/nvmdataout \
 sim:/bmwn/bmnvmaddress
+add wave  \
+sim:/bmwn/bmpm/afpm/myalgo/en \
+sim:/bmwn/bmpm/afpm/myalgo/clr \
+sim:/bmwn/bmpm/afpm/myalgo/clk \
+sim:/bmwn/bmpm/afpm/myalgo/result \
+sim:/bmwn/bmpm/afpm/myalgo/dir \
+sim:/bmwn/bmpm/afpm/myalgo/done \
+sim:/bmwn/bmpm/afpm/myalgo/move \
+sim:/bmwn/bmpm/afpm/myalgo/lastResult \
+sim:/bmwn/bmpm/afpm/myalgo/lastmove
+add wave  \
+sim:/bmwn/bmpm/afpm/clk \
+sim:/bmwn/bmpm/afpm/rst \
+sim:/bmwn/bmpm/afpm/dataIn \
+sim:/bmwn/bmpm/afpm/addr \
+sim:/bmwn/bmpm/afpm/readDone \
+sim:/bmwn/bmpm/afpm/direction \
+sim:/bmwn/bmpm/afpm/Move \
+sim:/bmwn/bmpm/afpm/FocusAddr \
+sim:/bmwn/bmpm/afpm/Start \
+sim:/bmwn/bmpm/afpm/Done \
+sim:/bmwn/bmpm/afpm/main_px_data \
+sim:/bmwn/bmpm/afpm/out_Addr \
+sim:/bmwn/bmpm/afpm/activate
+add wave -position insertpoint  \
+sim:/bmwn/bmpm/mmpm/clk
 force -freeze sim:/bmwn/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/bmwn/rst 1 0
 force -freeze sim:/bmwn/start 0 0
 force -freeze sim:/bmwn/movedone 0 0
-force -freeze sim:/bmwn/focaddress 10#0 0
+force -freeze sim:/bmwn/focaddress 10'd0 0
 run
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /bmwn/nvmpm
@@ -48,8 +74,5 @@ run
 #    Time: 0 ps  Iteration: 0  Instance: /bmwn/bmpm/mmpm/pmcache
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 1  Instance: /bmwn/nvmpm
-force -freeze sim:/bmwn/move 0 0
-run
-force -freeze sim:/bmwn/rst 0 0
-run
 mem load -i /home/abdullah/Desktop/CameraAFModule/hi.mem /bmwn/nvmpm/DATAMEMORY
+run

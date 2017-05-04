@@ -47,7 +47,6 @@ PORT(
 );
 END COMPONENT;
 
-signal cache_dataout : std_logic_vector(7 downto 0);
 signal dma_nvmreadaddress : std_logic_vector(11 downto 0);
 signal dma_cachewriteaddress : std_logic_vector(7 downto 0);
 signal dma_dataout : std_logic_vector(7 downto 0);

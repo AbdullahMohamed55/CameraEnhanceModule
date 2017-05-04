@@ -25,13 +25,14 @@ ARCHITECTURE a_Cache OF Cache IS
 		DATAOUT <= DATAMEMORY (TO_INTEGER(UNSIGNED(ADDRESSREAD))); -- Async.
 		PROCESS(CLK, RST) IS
 			BEGIN
-				IF rising_edge(CLK) THEN  
+				
 					IF RST = '1' THEN
 						DATAMEMORY <= ((others => (others  => '0')));
 					ELSIF WE = '1' THEN
+						IF rising_edge(CLK) THEN  
 						DATAMEMORY(to_integer(unsigned(ADDRESSWRITE))) <= DATAIN;
+						END IF;
 					END IF;
-				END IF;
 		END PROCESS;
 		
 

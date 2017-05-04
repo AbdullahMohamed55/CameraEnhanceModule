@@ -1,0 +1,769 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/abdullah/Desktop/Arch
+Eaddr_valid
+Z0 w1493829822
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 d/home/abdullah/Desktop/CameraAFModule
+Z4 8/home/abdullah/Desktop/CameraAFModule/neighboursValidation.vhd
+Z5 F/home/abdullah/Desktop/CameraAFModule/neighboursValidation.vhd
+l0
+L5
+Vm1hl]Pz@^LQlOUgU<84JD1
+!s100 V90BG<3Rbng0_e6[[1GV@1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1493915426
+!i10b 1
+Z8 !s108 1493915426.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/neighboursValidation.vhd|
+Z10 !s107 /home/abdullah/Desktop/CameraAFModule/neighboursValidation.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aa_addr_valid
+R1
+R2
+DEx4 work 10 addr_valid 0 22 m1hl]Pz@^LQlOUgU<84JD1
+l33
+L11
+V8:K]^>U]Hc`fU`Vd1>NzH0
+!s100 S2lj2g0?i_9_C[5U`7V>j1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eaf
+Z13 w1493915540
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z15 8/home/abdullah/Desktop/CameraAFModule/AF_module.vhd
+Z16 F/home/abdullah/Desktop/CameraAFModule/AF_module.vhd
+l0
+L5
+VXII?];MOg8VV3jgDcLCSg0
+!s100 >3AQ9HWEz1Y`DS5W@[4fk2
+R6
+32
+Z17 !s110 1493915545
+!i10b 1
+Z18 !s108 1493915545.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/AF_module.vhd|
+Z20 !s107 /home/abdullah/Desktop/CameraAFModule/AF_module.vhd|
+!i113 1
+R11
+R12
+Aaf
+R14
+R1
+R2
+Z21 DEx4 work 2 af 0 22 XII?];MOg8VV3jgDcLCSg0
+l128
+L20
+V^S@ZLSUR2Cjl20R4dQ_[62
+!s100 9=L<7[R;;]127h61e3KY[1
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Ealgo
+Z22 w1493908708
+R14
+R1
+R2
+R3
+Z23 8/home/abdullah/Desktop/CameraAFModule/algo.vhd
+Z24 F/home/abdullah/Desktop/CameraAFModule/algo.vhd
+l0
+L6
+Vc3`W^[D>JITB:N28GUk^61
+!s100 VWb=8RJehEdB3S3cG3aLI0
+R6
+32
+Z25 !s110 1493915424
+!i10b 1
+Z26 !s108 1493915424.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/algo.vhd|
+Z28 !s107 /home/abdullah/Desktop/CameraAFModule/algo.vhd|
+!i113 1
+R11
+R12
+Aalgo
+R14
+R1
+R2
+DEx4 work 4 algo 0 22 c3`W^[D>JITB:N28GUk^61
+l24
+L20
+VN_?oLfK]ee5UZjz<7kY@M0
+!s100 <]QX07@l3e5:@9O=8bkJh0
+R6
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Ebigmodule
+Z29 w1493843719
+R1
+R2
+R3
+Z30 8/home/abdullah/Desktop/CameraAFModule/BigFile.vhd
+Z31 F/home/abdullah/Desktop/CameraAFModule/BigFile.vhd
+l0
+L4
+V[?:X363`_Gh<01I7]zzEL3
+!s100 VfBKWn;h0<HC1;YgIK<`L1
+R6
+32
+Z32 !s110 1493915425
+!i10b 1
+R26
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/BigFile.vhd|
+Z34 !s107 /home/abdullah/Desktop/CameraAFModule/BigFile.vhd|
+!i113 1
+R11
+R12
+Aa_bm
+R1
+R2
+DEx4 work 9 bigmodule 0 22 [?:X363`_Gh<01I7]zzEL3
+l52
+L16
+VL[U7nd1KTXILmf<flV@eO0
+!s100 fS2HKoOL3P8MC=`JimmoF1
+R6
+32
+R32
+!i10b 1
+R26
+R33
+R34
+!i113 1
+R11
+R12
+Ebmwn
+Z35 w1493844074
+R1
+R2
+R3
+Z36 8/home/abdullah/Desktop/CameraAFModule/ModuleWithNvm.vhd
+Z37 F/home/abdullah/Desktop/CameraAFModule/ModuleWithNvm.vhd
+l0
+L4
+V:cm1I2h2c4E@10TYc8;J81
+!s100 L5fXimgO?@dn[B:C5FV<n3
+R6
+32
+R32
+!i10b 1
+Z38 !s108 1493915425.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/ModuleWithNvm.vhd|
+Z40 !s107 /home/abdullah/Desktop/CameraAFModule/ModuleWithNvm.vhd|
+!i113 1
+R11
+R12
+Aa_bmwn
+R1
+R2
+DEx4 work 4 bmwn 0 22 :cm1I2h2c4E@10TYc8;J81
+l39
+L12
+Vka<MSA^ZJa]JUN6hO`9AD2
+!s100 fQSNagEL4IFHQ;OlIDFB40
+R6
+32
+R32
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R11
+R12
+Ecache
+Z41 w1493912534
+R14
+R1
+R2
+R3
+Z42 8/home/abdullah/Desktop/CameraAFModule/Cache.vhd
+Z43 F/home/abdullah/Desktop/CameraAFModule/Cache.vhd
+l0
+L5
+VjzFo1gWE@2T:zDX@=dTOe3
+!s100 5j1jP]>7i^nn0j@n4^eOT0
+R6
+32
+R32
+!i10b 1
+R38
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/Cache.vhd|
+Z45 !s107 /home/abdullah/Desktop/CameraAFModule/Cache.vhd|
+!i113 1
+R11
+R12
+Aa_cache
+R14
+R1
+R2
+DEx4 work 5 cache 0 22 jzFo1gWE@2T:zDX@=dTOe3
+l24
+L19
+VNhe=faMf=2YcT12Go0`?83
+!s100 0ia0cgA<zzU8V[W69h^Af0
+R6
+32
+R32
+!i10b 1
+R38
+R44
+R45
+!i113 1
+R11
+R12
+Ecounter
+Z46 w1493826303
+Z47 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z48 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+Z49 8/home/abdullah/Desktop/CameraAFModule/ncounter.vhd
+Z50 F/home/abdullah/Desktop/CameraAFModule/ncounter.vhd
+l0
+L11
+VG2eSb>7343]Ic0eAgLJ<00
+!s100 `bBR5UX1WCBYndhnzciRJ2
+R6
+32
+R7
+!i10b 1
+R8
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/ncounter.vhd|
+Z52 !s107 /home/abdullah/Desktop/CameraAFModule/ncounter.vhd|
+!i113 1
+R11
+R12
+Acounter
+R47
+R48
+R1
+R2
+DEx4 work 7 counter 0 22 G2eSb>7343]Ic0eAgLJ<00
+l25
+L23
+VL1gmCAP[NFO4S2X>BN]4z0
+!s100 Lfc1J[BL>BJm0T8XzGC?11
+R6
+32
+R7
+!i10b 1
+R8
+R51
+R52
+!i113 1
+R11
+R12
+Ecounter256
+Z53 w1493838526
+R47
+R48
+R1
+R2
+R3
+Z54 8/home/abdullah/Desktop/CameraAFModule/counter256.vhd
+Z55 F/home/abdullah/Desktop/CameraAFModule/counter256.vhd
+l0
+L11
+VG3eTJYNRF[YbDS5gQC_g50
+!s100 7ZMU]eBdI;HP1H5lIHzZ`3
+R6
+32
+R32
+!i10b 1
+R38
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/counter256.vhd|
+Z57 !s107 /home/abdullah/Desktop/CameraAFModule/counter256.vhd|
+!i113 1
+R11
+R12
+Acounter256
+R47
+R48
+R1
+R2
+DEx4 work 10 counter256 0 22 G3eTJYNRF[YbDS5gQC_g50
+l24
+L22
+VClXU9_W81?I9][z=n1^?F3
+!s100 IM;I`iDm3K=F7VnZbXhN01
+R6
+32
+R32
+!i10b 1
+R38
+R56
+R57
+!i113 1
+R11
+R12
+Edma
+Z58 w1493825070
+R14
+R1
+R2
+R3
+Z59 8/home/abdullah/Desktop/CameraAFModule/DMA.vhd
+Z60 F/home/abdullah/Desktop/CameraAFModule/DMA.vhd
+l0
+L4
+VSViO4P^dYn3e2dXomf;V`1
+!s100 V9XoH_d>[JG:PjdBSkhCO2
+R6
+32
+R32
+!i10b 1
+R38
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/DMA.vhd|
+Z62 !s107 /home/abdullah/Desktop/CameraAFModule/DMA.vhd|
+!i113 1
+R11
+R12
+Aa_dma
+R14
+R1
+R2
+DEx4 work 3 dma 0 22 SViO4P^dYn3e2dXomf;V`1
+l32
+L22
+V>2UGG;?Y3RMAUiL=1]?XD1
+!s100 Z3X;>b@]SKf1;Q:9BTHZz2
+R6
+32
+R32
+!i10b 1
+R38
+R61
+R62
+!i113 1
+R11
+R12
+Ememmod
+Z63 w1493912261
+R1
+R2
+R3
+Z64 8/home/abdullah/Desktop/CameraAFModule/MEM_module.vhd
+Z65 F/home/abdullah/Desktop/CameraAFModule/MEM_module.vhd
+l0
+L4
+VLVB=@zIanE4LITBQ7_7aC0
+!s100 g3=nS_PDKP2bY?:dehkTn2
+R6
+32
+R32
+!i10b 1
+R38
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/MEM_module.vhd|
+Z67 !s107 /home/abdullah/Desktop/CameraAFModule/MEM_module.vhd|
+!i113 1
+R11
+R12
+Aa_memmod
+R1
+R2
+DEx4 work 6 memmod 0 22 LVB=@zIanE4LITBQ7_7aC0
+l56
+L17
+Vj]9;l^jB?]eMd9hBdSzHT0
+!s100 >A@oJPK1Qj0Z5MHb6YP1b0
+R6
+32
+R32
+!i10b 1
+R38
+R66
+R67
+!i113 1
+R11
+R12
+Emy_12adder
+Z68 w1493829225
+R1
+R2
+R3
+Z69 8/home/abdullah/Desktop/CameraAFModule/my_12_adder.vhd
+Z70 F/home/abdullah/Desktop/CameraAFModule/my_12_adder.vhd
+l0
+L4
+VX2zzW^Nl8Am37[^QEenJg3
+!s100 @N]4acYaY^B=4iPDDM=lo1
+R6
+32
+R32
+!i10b 1
+R38
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_12_adder.vhd|
+Z72 !s107 /home/abdullah/Desktop/CameraAFModule/my_12_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_12adder
+R1
+R2
+DEx4 work 10 my_12adder 0 22 X2zzW^Nl8Am37[^QEenJg3
+l18
+L11
+VA^ZF10h3kTZfU=Xkd5@c<2
+!s100 8<giOdSA46MB6=]ic4V@00
+R6
+32
+R32
+!i10b 1
+R38
+R71
+R72
+!i113 1
+R11
+R12
+Emy_19adder
+Z73 w1493829952
+R1
+R2
+R3
+Z74 8/home/abdullah/Desktop/CameraAFModule/my_19_adder.vhd
+Z75 F/home/abdullah/Desktop/CameraAFModule/my_19_adder.vhd
+l0
+L4
+Vl7`mi9l:KbmdPF=P_glI81
+!s100 1z0^GcPoBMHlMhic>KVDR3
+R6
+32
+R32
+!i10b 1
+R38
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_19_adder.vhd|
+Z77 !s107 /home/abdullah/Desktop/CameraAFModule/my_19_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_19adder
+R1
+R2
+DEx4 work 10 my_19adder 0 22 l7`mi9l:KbmdPF=P_glI81
+l18
+L11
+VCQ=U5BGQ>oHoTQ?<^<8d40
+!s100 5i39@d?miWbYQ9zRf0BW20
+R6
+32
+R32
+!i10b 1
+R38
+R76
+R77
+!i113 1
+R11
+R12
+Emy_8subtractor
+Z78 w1493829081
+R1
+R2
+R3
+Z79 8/home/abdullah/Desktop/CameraAFModule/my_8_subtractor.vhd
+Z80 F/home/abdullah/Desktop/CameraAFModule/my_8_subtractor.vhd
+l0
+L4
+V2J7oXT?Jlh=Z:1IkIeiKV2
+!s100 j[0WzHD73LeWm9KlCW6<Y1
+R6
+32
+R32
+!i10b 1
+R38
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_8_subtractor.vhd|
+Z82 !s107 /home/abdullah/Desktop/CameraAFModule/my_8_subtractor.vhd|
+!i113 1
+R11
+R12
+Aa_my_8subtractor
+R1
+R2
+DEx4 work 14 my_8subtractor 0 22 2J7oXT?Jlh=Z:1IkIeiKV2
+l18
+L11
+VOa94SFN<e6h66^IjRZ:Iz1
+!s100 0CkTc`ceOBY;n<:eBn_h73
+R6
+32
+R32
+!i10b 1
+R38
+R81
+R82
+!i113 1
+R11
+R12
+Emy_8subtractor_noabs
+Z83 w1493807688
+R1
+R2
+R3
+Z84 8/home/abdullah/Desktop/CameraAFModule/my_8_subtractor_noAbs.vhd
+Z85 F/home/abdullah/Desktop/CameraAFModule/my_8_subtractor_noAbs.vhd
+l0
+L4
+V9<gdAX=1<<>W7mT9;90ze1
+!s100 foR5@5ILPG9J`_><=:lga0
+R6
+32
+R32
+!i10b 1
+R38
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_8_subtractor_noAbs.vhd|
+Z87 !s107 /home/abdullah/Desktop/CameraAFModule/my_8_subtractor_noAbs.vhd|
+!i113 1
+R11
+R12
+Aa_my_8subtractor_noabs
+R1
+R2
+DEx4 work 20 my_8subtractor_noabs 0 22 9<gdAX=1<<>W7mT9;90ze1
+l19
+L12
+V`JJ@IFh?=ValnbE[V93d62
+!s100 0MXJl?TBb_zeLV4<okSY61
+R6
+32
+R32
+!i10b 1
+R38
+R86
+R87
+!i113 1
+R11
+R12
+Emy_adder
+R83
+R1
+R2
+R3
+Z88 8/home/abdullah/Desktop/CameraAFModule/my_adder.vhd
+Z89 F/home/abdullah/Desktop/CameraAFModule/my_adder.vhd
+l0
+L4
+VFjlMaf=9aFlNWPMnMXH?k3
+!s100 A5lJZfMh@V_I]hj`4ZSML1
+R6
+32
+R7
+!i10b 1
+R38
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_adder.vhd|
+Z91 !s107 /home/abdullah/Desktop/CameraAFModule/my_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R1
+R2
+DEx4 work 8 my_adder 0 22 FjlMaf=9aFlNWPMnMXH?k3
+l10
+L9
+VWTIAi=eUlPK4KBG=cg]6J0
+!s100 zV9mnC<=_]VSVLkR`@1NQ1
+R6
+32
+R7
+!i10b 1
+R38
+R90
+R91
+!i113 1
+R11
+R12
+Emy_nadder
+R83
+R1
+R2
+R3
+Z92 8/home/abdullah/Desktop/CameraAFModule/my_n_adder.vhd
+Z93 F/home/abdullah/Desktop/CameraAFModule/my_n_adder.vhd
+l0
+L4
+VA2zo:KEHNN?;A`eTe>7623
+!s100 `Wn]z423^nTd^UfIz5E4j1
+R6
+32
+R7
+!i10b 1
+R8
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_n_adder.vhd|
+Z95 !s107 /home/abdullah/Desktop/CameraAFModule/my_n_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_nadder
+R1
+R2
+DEx4 work 9 my_nadder 0 22 A2zo:KEHNN?;A`eTe>7623
+l19
+L12
+V`fHH^bZU;CZFP:R1S@a;z2
+!s100 ?g1jNzTCoXZK^51YNfS]91
+R6
+32
+R7
+!i10b 1
+R8
+R94
+R95
+!i113 1
+R11
+R12
+En_reg
+Z96 w1493840053
+R1
+R2
+R3
+Z97 8/home/abdullah/Desktop/CameraAFModule/Reg.vhd
+Z98 F/home/abdullah/Desktop/CameraAFModule/Reg.vhd
+l0
+L5
+V9E8KcfBc6WngkC;M^b4=_1
+!s100 6eIahWSQ09AB^U3_CfJLL3
+R6
+32
+R7
+!i10b 1
+R8
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/Reg.vhd|
+Z100 !s107 /home/abdullah/Desktop/CameraAFModule/Reg.vhd|
+!i113 1
+R11
+R12
+Aa_n_reg
+R1
+R2
+DEx4 work 5 n_reg 0 22 9E8KcfBc6WngkC;M^b4=_1
+l17
+L13
+Vi<kcbNUVJ3gKBokZ1;M6Y0
+!s100 6FaSChKBNW@ZzWfd2;o1S2
+R6
+32
+R7
+!i10b 1
+R8
+R99
+R100
+!i113 1
+R11
+R12
+Envm
+R58
+R14
+R1
+R2
+R3
+Z101 8/home/abdullah/Desktop/CameraAFModule/NVM.vhd
+Z102 F/home/abdullah/Desktop/CameraAFModule/NVM.vhd
+l0
+L5
+VHJ?^[4PPhJH5[H0zodc8?3
+!s100 ozz6QO4VneFFHbARBVdg01
+R6
+32
+R7
+!i10b 1
+R8
+Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/NVM.vhd|
+Z104 !s107 /home/abdullah/Desktop/CameraAFModule/NVM.vhd|
+!i113 1
+R11
+R12
+Aa_nvm
+R14
+R1
+R2
+DEx4 work 3 nvm 0 22 HJ?^[4PPhJH5[H0zodc8?3
+l22
+L17
+V><09F>HKRdaGlX0Rd;3DP0
+!s100 E=5B]XmL]IS49X`4^fZd90
+R6
+32
+R7
+!i10b 1
+R8
+R103
+R104
+!i113 1
+R11
+R12
+Ereg_19
+Z105 w1493835864
+R1
+R2
+R3
+Z106 8/home/abdullah/Desktop/CameraAFModule/Reg19.vhd
+Z107 F/home/abdullah/Desktop/CameraAFModule/Reg19.vhd
+l0
+L6
+V>`VdN;hn7KQPa`Z:>m8G<2
+!s100 QQAMom3_`Ice2<?ERSmKN3
+R6
+32
+R7
+!i10b 1
+R8
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/Reg19.vhd|
+Z109 !s107 /home/abdullah/Desktop/CameraAFModule/Reg19.vhd|
+!i113 1
+R11
+R12
+Aa_reg_19
+R1
+R2
+DEx4 work 6 reg_19 0 22 >`VdN;hn7KQPa`Z:>m8G<2
+l18
+L14
+VnK1=R29l>De0@18k=I;ca1
+!s100 WMM4RK^c<>adAXHUm4B;T1
+R6
+32
+R7
+!i10b 1
+R8
+R108
+R109
+!i113 1
+R11
+R12
