@@ -122,6 +122,7 @@ signal c256enabler : std_logic;
 signal move_algo : std_logic;
 signal activate : std_logic;
 signal regreset : std_logic;
+signal mainPxEn :std_logic;
 
 signal minicounteren : std_logic;
 signal addera : std_logic_vector(18 downto 0);
@@ -129,16 +130,21 @@ begin
 minicounteren <= '1' when (activate = '1' and move_algo = '0')
 else '0';
 
+mainPxEn <= '1'
+when ( activate = '1' and count_9 = "0000")
+else '0';
+
 addera <= "00000000000" & sub8_res;
-c256enabler <= count_9(3) = '1' and activate = '1';
+c256enabler <= '1' when (count_9(3) = '1' and activate = '1') or move_algo = '1'
+else '0';
 regreset <= count_256(8) or rst;
 my8 : my_8subtractor port map  (dataIn,main_px_data,'1',sub8_res);
 my19 : my_19adder port map  (addera,result,'0',add19_res);
 my256 : counter256 port map  (c256enabler, rst, clk, count_256);
 my9 :counter port map  ( minicounteren, rst, clk, count_9 );
 
-myreg :n_reg port map  (dataIn, main_px_data, rst, clk, c256enabler);
-my1919: reg_19 port map  (add19_res, result, regreset, clk, '1' );
+myreg :n_reg port map  (dataIn, main_px_data, rst, clk, mainPxEn);
+my1919: reg_19 port map  (add19_res, result, regreset, clk, activate );
 myvalid: addr_Valid port map (count_256(7 downto 0), count_9, out_Addr);
 myalgo: Algo port map  (count_256(8), rst, clk, result, dir_algo, done_algo, move_algo);
 

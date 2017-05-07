@@ -7,25 +7,25 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-d/home/abdullah/Desktop/Arch
+d/home/adeladham/intelFPGA/testing/vlsi
 Eaddr_valid
-Z0 w1493829822
+Z0 w1493829169
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 d/home/abdullah/Desktop/CameraAFModule
-Z4 8/home/abdullah/Desktop/CameraAFModule/neighboursValidation.vhd
-Z5 F/home/abdullah/Desktop/CameraAFModule/neighboursValidation.vhd
+Z3 d/home/adeladham/intelFPGA/CameraEnhanceModule
+Z4 8/home/adeladham/intelFPGA/CameraEnhanceModule/neighboursValidation.vhd
+Z5 F/home/adeladham/intelFPGA/CameraEnhanceModule/neighboursValidation.vhd
 l0
 L5
 Vm1hl]Pz@^LQlOUgU<84JD1
 !s100 V90BG<3Rbng0_e6[[1GV@1
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1493915426
+Z7 !s110 1494183581
 !i10b 1
-Z8 !s108 1493915426.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/neighboursValidation.vhd|
-Z10 !s107 /home/abdullah/Desktop/CameraAFModule/neighboursValidation.vhd|
+Z8 !s108 1494183581.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/neighboursValidation.vhd|
+Z10 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/neighboursValidation.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
@@ -48,24 +48,24 @@ R10
 R11
 R12
 Eaf
-Z13 w1493915540
+Z13 w1494183488
 Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z15 8/home/abdullah/Desktop/CameraAFModule/AF_module.vhd
-Z16 F/home/abdullah/Desktop/CameraAFModule/AF_module.vhd
+Z15 8/home/adeladham/intelFPGA/CameraEnhanceModule/AF_module.vhd
+Z16 F/home/adeladham/intelFPGA/CameraEnhanceModule/AF_module.vhd
 l0
 L5
 VXII?];MOg8VV3jgDcLCSg0
 !s100 >3AQ9HWEz1Y`DS5W@[4fk2
 R6
 32
-Z17 !s110 1493915545
+Z17 !s110 1494183580
 !i10b 1
-Z18 !s108 1493915545.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/AF_module.vhd|
-Z20 !s107 /home/abdullah/Desktop/CameraAFModule/AF_module.vhd|
+Z18 !s108 1494183580.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/AF_module.vhd|
+Z20 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/AF_module.vhd|
 !i113 1
 R11
 R12
@@ -73,11 +73,11 @@ Aaf
 R14
 R1
 R2
-Z21 DEx4 work 2 af 0 22 XII?];MOg8VV3jgDcLCSg0
-l128
+DEx4 work 2 af 0 22 XII?];MOg8VV3jgDcLCSg0
+l129
 L20
-V^S@ZLSUR2Cjl20R4dQ_[62
-!s100 9=L<7[R;;]127h61e3KY[1
+V[WZ^WEOgVG8o6bg>bd[cJ3
+!s100 X9BJIfhL1f9=z2BDdiJ5^3
 R6
 32
 R17
@@ -89,24 +89,24 @@ R20
 R11
 R12
 Ealgo
-Z22 w1493908708
+Z21 w1494169810
 R14
 R1
 R2
 R3
-Z23 8/home/abdullah/Desktop/CameraAFModule/algo.vhd
-Z24 F/home/abdullah/Desktop/CameraAFModule/algo.vhd
+Z22 8/home/adeladham/intelFPGA/CameraEnhanceModule/algo.vhd
+Z23 F/home/adeladham/intelFPGA/CameraEnhanceModule/algo.vhd
 l0
 L6
 Vc3`W^[D>JITB:N28GUk^61
 !s100 VWb=8RJehEdB3S3cG3aLI0
 R6
 32
-Z25 !s110 1493915424
+R17
 !i10b 1
-Z26 !s108 1493915424.000000
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/algo.vhd|
-Z28 !s107 /home/abdullah/Desktop/CameraAFModule/algo.vhd|
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/algo.vhd|
+Z25 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/algo.vhd|
 !i113 1
 R11
 R12
@@ -121,32 +121,32 @@ VN_?oLfK]ee5UZjz<7kY@M0
 !s100 <]QX07@l3e5:@9O=8bkJh0
 R6
 32
-R25
+R17
 !i10b 1
-R26
-R27
-R28
+R18
+R24
+R25
 !i113 1
 R11
 R12
 Ebigmodule
-Z29 w1493843719
+Z26 w1493847529
 R1
 R2
 R3
-Z30 8/home/abdullah/Desktop/CameraAFModule/BigFile.vhd
-Z31 F/home/abdullah/Desktop/CameraAFModule/BigFile.vhd
+Z27 8/home/adeladham/intelFPGA/CameraEnhanceModule/BigFile.vhd
+Z28 F/home/adeladham/intelFPGA/CameraEnhanceModule/BigFile.vhd
 l0
 L4
 V[?:X363`_Gh<01I7]zzEL3
 !s100 VfBKWn;h0<HC1;YgIK<`L1
 R6
 32
-Z32 !s110 1493915425
+R17
 !i10b 1
-R26
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/BigFile.vhd|
-Z34 !s107 /home/abdullah/Desktop/CameraAFModule/BigFile.vhd|
+R18
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/BigFile.vhd|
+Z30 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/BigFile.vhd|
 !i113 1
 R11
 R12
@@ -160,32 +160,32 @@ VL[U7nd1KTXILmf<flV@eO0
 !s100 fS2HKoOL3P8MC=`JimmoF1
 R6
 32
-R32
+R17
 !i10b 1
-R26
-R33
-R34
+R18
+R29
+R30
 !i113 1
 R11
 R12
 Ebmwn
-Z35 w1493844074
+R26
 R1
 R2
 R3
-Z36 8/home/abdullah/Desktop/CameraAFModule/ModuleWithNvm.vhd
-Z37 F/home/abdullah/Desktop/CameraAFModule/ModuleWithNvm.vhd
+Z31 8/home/adeladham/intelFPGA/CameraEnhanceModule/ModuleWithNvm.vhd
+Z32 F/home/adeladham/intelFPGA/CameraEnhanceModule/ModuleWithNvm.vhd
 l0
 L4
 V:cm1I2h2c4E@10TYc8;J81
 !s100 L5fXimgO?@dn[B:C5FV<n3
 R6
 32
-R32
+R17
 !i10b 1
-Z38 !s108 1493915425.000000
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/ModuleWithNvm.vhd|
-Z40 !s107 /home/abdullah/Desktop/CameraAFModule/ModuleWithNvm.vhd|
+R18
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/ModuleWithNvm.vhd|
+Z34 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/ModuleWithNvm.vhd|
 !i113 1
 R11
 R12
@@ -199,33 +199,33 @@ Vka<MSA^ZJa]JUN6hO`9AD2
 !s100 fQSNagEL4IFHQ;OlIDFB40
 R6
 32
-R32
+R17
 !i10b 1
-R38
-R39
-R40
+R18
+R33
+R34
 !i113 1
 R11
 R12
 Ecache
-Z41 w1493912534
+R21
 R14
 R1
 R2
 R3
-Z42 8/home/abdullah/Desktop/CameraAFModule/Cache.vhd
-Z43 F/home/abdullah/Desktop/CameraAFModule/Cache.vhd
+Z35 8/home/adeladham/intelFPGA/CameraEnhanceModule/Cache.vhd
+Z36 F/home/adeladham/intelFPGA/CameraEnhanceModule/Cache.vhd
 l0
 L5
 VjzFo1gWE@2T:zDX@=dTOe3
 !s100 5j1jP]>7i^nn0j@n4^eOT0
 R6
 32
-R32
+R17
 !i10b 1
-R38
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/Cache.vhd|
-Z45 !s107 /home/abdullah/Desktop/CameraAFModule/Cache.vhd|
+R18
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/Cache.vhd|
+Z38 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/Cache.vhd|
 !i113 1
 R11
 R12
@@ -240,23 +240,23 @@ VNhe=faMf=2YcT12Go0`?83
 !s100 0ia0cgA<zzU8V[W69h^Af0
 R6
 32
-R32
+R17
 !i10b 1
+R18
+R37
 R38
-R44
-R45
 !i113 1
 R11
 R12
 Ecounter
-Z46 w1493826303
-Z47 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z48 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z39 w1493828174
+Z40 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z41 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R1
 R2
 R3
-Z49 8/home/abdullah/Desktop/CameraAFModule/ncounter.vhd
-Z50 F/home/abdullah/Desktop/CameraAFModule/ncounter.vhd
+Z42 8/home/adeladham/intelFPGA/CameraEnhanceModule/ncounter.vhd
+Z43 F/home/adeladham/intelFPGA/CameraEnhanceModule/ncounter.vhd
 l0
 L11
 VG2eSb>7343]Ic0eAgLJ<00
@@ -266,14 +266,14 @@ R6
 R7
 !i10b 1
 R8
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/ncounter.vhd|
-Z52 !s107 /home/abdullah/Desktop/CameraAFModule/ncounter.vhd|
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/ncounter.vhd|
+Z45 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/ncounter.vhd|
 !i113 1
 R11
 R12
 Acounter
-R47
-R48
+R40
+R41
 R1
 R2
 DEx4 work 7 counter 0 22 G2eSb>7343]Ic0eAgLJ<00
@@ -286,37 +286,37 @@ R6
 R7
 !i10b 1
 R8
-R51
-R52
+R44
+R45
 !i113 1
 R11
 R12
 Ecounter256
-Z53 w1493838526
-R47
-R48
+R26
+R40
+R41
 R1
 R2
 R3
-Z54 8/home/abdullah/Desktop/CameraAFModule/counter256.vhd
-Z55 F/home/abdullah/Desktop/CameraAFModule/counter256.vhd
+Z46 8/home/adeladham/intelFPGA/CameraEnhanceModule/counter256.vhd
+Z47 F/home/adeladham/intelFPGA/CameraEnhanceModule/counter256.vhd
 l0
 L11
 VG3eTJYNRF[YbDS5gQC_g50
 !s100 7ZMU]eBdI;HP1H5lIHzZ`3
 R6
 32
-R32
+R17
 !i10b 1
-R38
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/counter256.vhd|
-Z57 !s107 /home/abdullah/Desktop/CameraAFModule/counter256.vhd|
+R18
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/counter256.vhd|
+Z49 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/counter256.vhd|
 !i113 1
 R11
 R12
 Acounter256
-R47
-R48
+R40
+R41
 R1
 R2
 DEx4 work 10 counter256 0 22 G3eTJYNRF[YbDS5gQC_g50
@@ -326,33 +326,33 @@ VClXU9_W81?I9][z=n1^?F3
 !s100 IM;I`iDm3K=F7VnZbXhN01
 R6
 32
-R32
+R17
 !i10b 1
-R38
-R56
-R57
+R18
+R48
+R49
 !i113 1
 R11
 R12
 Edma
-Z58 w1493825070
+Z50 w1493828225
 R14
 R1
 R2
 R3
-Z59 8/home/abdullah/Desktop/CameraAFModule/DMA.vhd
-Z60 F/home/abdullah/Desktop/CameraAFModule/DMA.vhd
+Z51 8/home/adeladham/intelFPGA/CameraEnhanceModule/DMA.vhd
+Z52 F/home/adeladham/intelFPGA/CameraEnhanceModule/DMA.vhd
 l0
 L4
 VSViO4P^dYn3e2dXomf;V`1
 !s100 V9XoH_d>[JG:PjdBSkhCO2
 R6
 32
-R32
+R17
 !i10b 1
-R38
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/DMA.vhd|
-Z62 !s107 /home/abdullah/Desktop/CameraAFModule/DMA.vhd|
+R18
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/DMA.vhd|
+Z54 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/DMA.vhd|
 !i113 1
 R11
 R12
@@ -367,32 +367,32 @@ V>2UGG;?Y3RMAUiL=1]?XD1
 !s100 Z3X;>b@]SKf1;Q:9BTHZz2
 R6
 32
-R32
+R17
 !i10b 1
-R38
-R61
-R62
+R18
+R53
+R54
 !i113 1
 R11
 R12
 Ememmod
-Z63 w1493912261
+R21
 R1
 R2
 R3
-Z64 8/home/abdullah/Desktop/CameraAFModule/MEM_module.vhd
-Z65 F/home/abdullah/Desktop/CameraAFModule/MEM_module.vhd
+Z55 8/home/adeladham/intelFPGA/CameraEnhanceModule/MEM_module.vhd
+Z56 F/home/adeladham/intelFPGA/CameraEnhanceModule/MEM_module.vhd
 l0
 L4
 VLVB=@zIanE4LITBQ7_7aC0
 !s100 g3=nS_PDKP2bY?:dehkTn2
 R6
 32
-R32
+R17
 !i10b 1
-R38
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/MEM_module.vhd|
-Z67 !s107 /home/abdullah/Desktop/CameraAFModule/MEM_module.vhd|
+R18
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/MEM_module.vhd|
+Z58 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/MEM_module.vhd|
 !i113 1
 R11
 R12
@@ -406,32 +406,32 @@ Vj]9;l^jB?]eMd9hBdSzHT0
 !s100 >A@oJPK1Qj0Z5MHb6YP1b0
 R6
 32
-R32
+R17
 !i10b 1
-R38
-R66
-R67
+R18
+R57
+R58
 !i113 1
 R11
 R12
 Emy_12adder
-Z68 w1493829225
+R26
 R1
 R2
 R3
-Z69 8/home/abdullah/Desktop/CameraAFModule/my_12_adder.vhd
-Z70 F/home/abdullah/Desktop/CameraAFModule/my_12_adder.vhd
+Z59 8/home/adeladham/intelFPGA/CameraEnhanceModule/my_12_adder.vhd
+Z60 F/home/adeladham/intelFPGA/CameraEnhanceModule/my_12_adder.vhd
 l0
 L4
 VX2zzW^Nl8Am37[^QEenJg3
 !s100 @N]4acYaY^B=4iPDDM=lo1
 R6
 32
-R32
+R17
 !i10b 1
-R38
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_12_adder.vhd|
-Z72 !s107 /home/abdullah/Desktop/CameraAFModule/my_12_adder.vhd|
+R18
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/my_12_adder.vhd|
+Z62 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/my_12_adder.vhd|
 !i113 1
 R11
 R12
@@ -445,32 +445,32 @@ VA^ZF10h3kTZfU=Xkd5@c<2
 !s100 8<giOdSA46MB6=]ic4V@00
 R6
 32
-R32
+R17
 !i10b 1
-R38
-R71
-R72
+R18
+R61
+R62
 !i113 1
 R11
 R12
 Emy_19adder
-Z73 w1493829952
+R26
 R1
 R2
 R3
-Z74 8/home/abdullah/Desktop/CameraAFModule/my_19_adder.vhd
-Z75 F/home/abdullah/Desktop/CameraAFModule/my_19_adder.vhd
+Z63 8/home/adeladham/intelFPGA/CameraEnhanceModule/my_19_adder.vhd
+Z64 F/home/adeladham/intelFPGA/CameraEnhanceModule/my_19_adder.vhd
 l0
 L4
 Vl7`mi9l:KbmdPF=P_glI81
 !s100 1z0^GcPoBMHlMhic>KVDR3
 R6
 32
-R32
+R17
 !i10b 1
-R38
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_19_adder.vhd|
-Z77 !s107 /home/abdullah/Desktop/CameraAFModule/my_19_adder.vhd|
+R18
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/my_19_adder.vhd|
+Z66 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/my_19_adder.vhd|
 !i113 1
 R11
 R12
@@ -484,32 +484,32 @@ VCQ=U5BGQ>oHoTQ?<^<8d40
 !s100 5i39@d?miWbYQ9zRf0BW20
 R6
 32
-R32
+R17
 !i10b 1
-R38
-R76
-R77
+R18
+R65
+R66
 !i113 1
 R11
 R12
 Emy_8subtractor
-Z78 w1493829081
+R26
 R1
 R2
 R3
-Z79 8/home/abdullah/Desktop/CameraAFModule/my_8_subtractor.vhd
-Z80 F/home/abdullah/Desktop/CameraAFModule/my_8_subtractor.vhd
+Z67 8/home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor.vhd
+Z68 F/home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor.vhd
 l0
 L4
 V2J7oXT?Jlh=Z:1IkIeiKV2
 !s100 j[0WzHD73LeWm9KlCW6<Y1
 R6
 32
-R32
+R17
 !i10b 1
-R38
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_8_subtractor.vhd|
-Z82 !s107 /home/abdullah/Desktop/CameraAFModule/my_8_subtractor.vhd|
+R18
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor.vhd|
+Z70 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor.vhd|
 !i113 1
 R11
 R12
@@ -523,32 +523,32 @@ VOa94SFN<e6h66^IjRZ:Iz1
 !s100 0CkTc`ceOBY;n<:eBn_h73
 R6
 32
-R32
+R17
 !i10b 1
-R38
-R81
-R82
+R18
+R69
+R70
 !i113 1
 R11
 R12
 Emy_8subtractor_noabs
-Z83 w1493807688
+Z71 w1493825168
 R1
 R2
 R3
-Z84 8/home/abdullah/Desktop/CameraAFModule/my_8_subtractor_noAbs.vhd
-Z85 F/home/abdullah/Desktop/CameraAFModule/my_8_subtractor_noAbs.vhd
+Z72 8/home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor_noAbs.vhd
+Z73 F/home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor_noAbs.vhd
 l0
 L4
 V9<gdAX=1<<>W7mT9;90ze1
 !s100 foR5@5ILPG9J`_><=:lga0
 R6
 32
-R32
+R17
 !i10b 1
-R38
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_8_subtractor_noAbs.vhd|
-Z87 !s107 /home/abdullah/Desktop/CameraAFModule/my_8_subtractor_noAbs.vhd|
+R18
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor_noAbs.vhd|
+Z75 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor_noAbs.vhd|
 !i113 1
 R11
 R12
@@ -562,32 +562,32 @@ V`JJ@IFh?=ValnbE[V93d62
 !s100 0MXJl?TBb_zeLV4<okSY61
 R6
 32
-R32
+R17
 !i10b 1
-R38
-R86
-R87
+R18
+R74
+R75
 !i113 1
 R11
 R12
 Emy_adder
-R83
+R71
 R1
 R2
 R3
-Z88 8/home/abdullah/Desktop/CameraAFModule/my_adder.vhd
-Z89 F/home/abdullah/Desktop/CameraAFModule/my_adder.vhd
+Z76 8/home/adeladham/intelFPGA/CameraEnhanceModule/my_adder.vhd
+Z77 F/home/adeladham/intelFPGA/CameraEnhanceModule/my_adder.vhd
 l0
 L4
 VFjlMaf=9aFlNWPMnMXH?k3
 !s100 A5lJZfMh@V_I]hj`4ZSML1
 R6
 32
-R7
+R17
 !i10b 1
-R38
-Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_adder.vhd|
-Z91 !s107 /home/abdullah/Desktop/CameraAFModule/my_adder.vhd|
+R18
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/my_adder.vhd|
+Z79 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/my_adder.vhd|
 !i113 1
 R11
 R12
@@ -601,21 +601,21 @@ VWTIAi=eUlPK4KBG=cg]6J0
 !s100 zV9mnC<=_]VSVLkR`@1NQ1
 R6
 32
-R7
+R17
 !i10b 1
-R38
-R90
-R91
+R18
+R78
+R79
 !i113 1
 R11
 R12
 Emy_nadder
-R83
+R71
 R1
 R2
 R3
-Z92 8/home/abdullah/Desktop/CameraAFModule/my_n_adder.vhd
-Z93 F/home/abdullah/Desktop/CameraAFModule/my_n_adder.vhd
+Z80 8/home/adeladham/intelFPGA/CameraEnhanceModule/my_n_adder.vhd
+Z81 F/home/adeladham/intelFPGA/CameraEnhanceModule/my_n_adder.vhd
 l0
 L4
 VA2zo:KEHNN?;A`eTe>7623
@@ -624,9 +624,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/my_n_adder.vhd|
-Z95 !s107 /home/abdullah/Desktop/CameraAFModule/my_n_adder.vhd|
+R18
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/my_n_adder.vhd|
+Z83 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/my_n_adder.vhd|
 !i113 1
 R11
 R12
@@ -642,19 +642,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R94
-R95
+R18
+R82
+R83
 !i113 1
 R11
 R12
 En_reg
-Z96 w1493840053
+R26
 R1
 R2
 R3
-Z97 8/home/abdullah/Desktop/CameraAFModule/Reg.vhd
-Z98 F/home/abdullah/Desktop/CameraAFModule/Reg.vhd
+Z84 8/home/adeladham/intelFPGA/CameraEnhanceModule/Reg.vhd
+Z85 F/home/adeladham/intelFPGA/CameraEnhanceModule/Reg.vhd
 l0
 L5
 V9E8KcfBc6WngkC;M^b4=_1
@@ -664,8 +664,8 @@ R6
 R7
 !i10b 1
 R8
-Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/Reg.vhd|
-Z100 !s107 /home/abdullah/Desktop/CameraAFModule/Reg.vhd|
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/Reg.vhd|
+Z87 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/Reg.vhd|
 !i113 1
 R11
 R12
@@ -682,19 +682,19 @@ R6
 R7
 !i10b 1
 R8
-R99
-R100
+R86
+R87
 !i113 1
 R11
 R12
 Envm
-R58
+R50
 R14
 R1
 R2
 R3
-Z101 8/home/abdullah/Desktop/CameraAFModule/NVM.vhd
-Z102 F/home/abdullah/Desktop/CameraAFModule/NVM.vhd
+Z88 8/home/adeladham/intelFPGA/CameraEnhanceModule/NVM.vhd
+Z89 F/home/adeladham/intelFPGA/CameraEnhanceModule/NVM.vhd
 l0
 L5
 VHJ?^[4PPhJH5[H0zodc8?3
@@ -704,8 +704,8 @@ R6
 R7
 !i10b 1
 R8
-Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/NVM.vhd|
-Z104 !s107 /home/abdullah/Desktop/CameraAFModule/NVM.vhd|
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/NVM.vhd|
+Z91 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/NVM.vhd|
 !i113 1
 R11
 R12
@@ -723,18 +723,18 @@ R6
 R7
 !i10b 1
 R8
-R103
-R104
+R90
+R91
 !i113 1
 R11
 R12
 Ereg_19
-Z105 w1493835864
+R26
 R1
 R2
 R3
-Z106 8/home/abdullah/Desktop/CameraAFModule/Reg19.vhd
-Z107 F/home/abdullah/Desktop/CameraAFModule/Reg19.vhd
+Z92 8/home/adeladham/intelFPGA/CameraEnhanceModule/Reg19.vhd
+Z93 F/home/adeladham/intelFPGA/CameraEnhanceModule/Reg19.vhd
 l0
 L6
 V>`VdN;hn7KQPa`Z:>m8G<2
@@ -744,26 +744,26 @@ R6
 R7
 !i10b 1
 R8
-Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdullah/Desktop/CameraAFModule/Reg19.vhd|
-Z109 !s107 /home/abdullah/Desktop/CameraAFModule/Reg19.vhd|
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/adeladham/intelFPGA/CameraEnhanceModule/Reg19.vhd|
+Z95 !s107 /home/adeladham/intelFPGA/CameraEnhanceModule/Reg19.vhd|
 !i113 1
 R11
 R12
 Aa_reg_19
 R1
 R2
-DEx4 work 6 reg_19 0 22 >`VdN;hn7KQPa`Z:>m8G<2
+Z96 DEx4 work 6 reg_19 0 22 >`VdN;hn7KQPa`Z:>m8G<2
 l18
 L14
-VnK1=R29l>De0@18k=I;ca1
-!s100 WMM4RK^c<>adAXHUm4B;T1
+Z97 VnK1=R29l>De0@18k=I;ca1
+Z98 !s100 WMM4RK^c<>adAXHUm4B;T1
 R6
 32
 R7
 !i10b 1
 R8
-R108
-R109
+R94
+R95
 !i113 1
 R11
 R12

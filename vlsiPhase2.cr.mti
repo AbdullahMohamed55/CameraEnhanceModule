@@ -1,0 +1,161 @@
+/home/adeladham/intelFPGA/CameraEnhanceModule/NVM.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/NVM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity NVM
+-- Compiling architecture a_NVM of NVM
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/my_n_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/my_n_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nadder
+-- Compiling architecture a_my_nadder of my_nadder
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/algo.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/algo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Algo
+-- Compiling architecture Algo of Algo
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/ModuleWithNvm.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/ModuleWithNvm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bmwn
+-- Compiling architecture a_bmwn of bmwn
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/counter256.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/counter256.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity counter256
+-- Compiling architecture counter256 of counter256
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_8subtractor
+-- Compiling architecture a_my_8subtractor of my_8subtractor
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/Reg.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/Reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity n_reg
+-- Compiling architecture A_n_reg of n_reg
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor_noAbs.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/my_8_subtractor_noAbs.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_8subtractor_noAbs
+-- Compiling architecture a_my_8subtractor_noAbs of my_8subtractor_noAbs
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/my_12_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/my_12_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_12adder
+-- Compiling architecture a_my_12adder of my_12adder
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/Reg19.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/Reg19.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_19
+-- Compiling architecture A_reg_19 of reg_19
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/neighboursValidation.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/neighboursValidation.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity addr_Valid
+-- Compiling architecture a_addr_Valid of addr_Valid
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/BigFile.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/BigFile.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BigModule
+-- Compiling architecture a_bm of BigModule
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/DMA.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/DMA.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DMA
+-- Compiling architecture a_DMA of DMA
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/Cache.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/Cache.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Cache
+-- Compiling architecture a_Cache of Cache
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/MEM_module.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/MEM_module.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MEMMOD
+-- Compiling architecture a_MEMMOD of MEMMOD
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/my_8_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/my_8_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nadder
+-- Compiling architecture a_my_nadder of my_nadder
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/my_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/my_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_adder
+-- Compiling architecture a_my_adder of my_adder
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/ncounter.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/ncounter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity counter
+-- Compiling architecture counter of counter
+
+} {} {}} /home/adeladham/intelFPGA/CameraEnhanceModule/my_19_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/adeladham/intelFPGA/CameraEnhanceModule/my_19_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_19adder
+-- Compiling architecture a_my_19adder of my_19adder
+
+} {} {}}
